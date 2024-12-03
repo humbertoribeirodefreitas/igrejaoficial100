@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lares</title>
+    <link rel="shortcut icon" href="./imagem/Admac.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Letra branca */
+        }
+
+        /* Efeito 3D nos cards */
+        .card-3d .card {
+            transition: transform 0.5s;
+            transform-style: preserve-3d;
+        }
+        .card-3d:hover .card {
+            transform: rotateY(10deg) rotateX(10deg);
+        }
+
+        .card {
+            background-color: #222;
+            color: #fff;
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        a {
+            color: #fff;
+        }
+        a:hover {
+            color: #ccc;
+        }
+
+        footer {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Culto da Família</a>
+            <a href="index.html" class="btn btn-primary">Voltar</a>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="container my-5">
+        <h1 class="text-center">Culto da Família</h1>
+        <p class="text-center">Veja como o culto nos lares tem transformado vidas!</p>
+
+        <!-- Cards com Efeito 3D -->
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-4 card-3d">
+                <div class="card shadow">
+                    <img src="./imagem/lares/lider oficial2.png" class="card-img-top" alt="Evento 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Agende seu Culto</h5>
+                        <p class="card-text">Solicite o culto em seu lar pelo nosso formulário.</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzv3i3972n0y_KdqVp7o-wATW0heNyPM3ijrqNkMOZbzaimA/viewform?usp=sharing" class="btn btn-primary" target="_blank">Agenda</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4 card-3d">
+                <div class="card shadow">
+                    <img src="./imagem/lares/campanha1 copy.jpg" class="card-img-top" alt="Evento 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Depoimentos</h5>
+                        <p class="card-text">Assista aos testemunhos de transformação nos lares.</p>
+                        <a href="https://youtu.be/zjdpUqkwFs0" class="btn btn-primary" target="_blank">Assistir</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4 card-3d">
+                <div class="card shadow">
+                    <img src="./imagem/lares/fundo15.png" class="card-img-top" alt="Evento 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Culto de Oração</h5>
+                        <p class="card-text">Participe da nossa reunião de oração nos lares.</p>
+                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Seção de Vídeo -->
+    <section class="container my-5 text-center">
+        <h3>Assista ao nosso vídeo</h3>
+        <div class="ratio ratio-16x9 mx-auto" style="max-width: 720px;">
+            <iframe src="https://www.youtube.com/embed/XQpQnue7sQE" 
+                title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="text-center p-4">
+        <p>Siga-nos nas redes sociais:</p>
+        <a href="https://chat.whatsapp.com/IhFiw1S74Sp09cw81mrEGN" class="btn btn-success"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+        <a href="https://www.facebook.com/profile.php?id=100011588501862" class="btn btn-primary"><i class="bi bi-facebook"></i> Facebook</a>
+        <a href="https://www.youtube.com/live/Fi2Ri7_6BXc" class="btn btn-danger"><i class="bi bi-youtube"></i> YouTube</a>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
